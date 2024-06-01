@@ -1,8 +1,8 @@
 import './header.css';
-import Cta from './CTA';
-import MEpng from '../../assets/web-developer-min.png';
-import MEwebp from '../../assets/web-developer-min.webp';
-import HeaderSocial from './HeaderSocial';
+import Helper from './helper';
+import MEpng from '../../assets/mypic.jpeg';
+import MEwebp from '../../assets/mypic2.jpeg';
+import Social from './social';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Header = () => {
@@ -16,14 +16,14 @@ const Header = () => {
       <div className='container header__container'>
         <h1 className='small-title'>Hello, I am</h1>
         <a href='/'>
-          <h2 className='big-title'>Mohamad Salimi</h2>
+          <h2 className='big-title'>Abhay Sahani</h2>
         </a>
         <div className='typewriter'>
           <span className='text-gradient'>{text}</span>
           <Cursor cursorColor='#444444' cursorStyle='|' />
         </div>
-        <Cta />
-        <HeaderSocial />
+        <Helper />
+        <Social />
 
         <div className='me'>
           <picture>

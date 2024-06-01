@@ -1,6 +1,6 @@
 import { BsFillChatFill } from 'react-icons/bs';
 
-const Cta = () => {
+const Helper = () => {
   return (
     <div className='cta'>
       <a
@@ -18,4 +18,4 @@ const Cta = () => {
   );
 };
 
-export default Cta;
+export default Helper;
