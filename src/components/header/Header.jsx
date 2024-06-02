@@ -1,7 +1,7 @@
 import './header.css';
 import Helper from './helper';
 import MEpng from '../../assets/mypic.jpeg';
-import MEwebp from '../../assets/mypic2.jpeg';
+import MEwebp from '../../assets/mypic.jpeg';
 import Social from './social';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
