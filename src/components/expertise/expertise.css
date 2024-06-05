@@ -1,0 +1,95 @@
+.expertises__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+  
+  .expertise {
+    background: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+  }
+  
+  .expertise:hover {
+    background: transparent;
+    cursor: default;
+  }
+  
+  .main-content:not(.bg-dark) .bg-dark .expertise:hover {
+    border-color: var(--color-primary-variant);
+  }
+  
+  .expertise__head {
+    background: var(--color-primary);
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .expertise__head h3 {
+    color: var(--color-white);
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .main-content:not(.bg-dark) .expertise__head:hover ~ .expertise__list p,
+  .main-content:not(.bg-dark)
+    .expertise__head:hover
+    ~ .expertise__list
+    .expertise__list-icon {
+    color: var(--color-primary);
+  }
+  
+  .expertise__list {
+    padding: 2rem;
+  }
+  
+  .expertise__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .expertise__list-icon {
+    color: var(--color-white);
+    margin-top: 2px;
+    font-size: 1rem;
+    min-width: 1rem;
+    max-width: 1rem;
+  }
+  
+  .main-content:not(.bg-dark) .expertise__list:hover .expertise__list-icon {
+    color: var(--color-primary);
+  }
+  
+  .expertise__list p {
+    font-size: 0.9rem;
+    color: var(--color-white);
+  }
+  
+  .main-content:not(.bg-dark) .expertise__list:hover p {
+    color: var(--color-primary);
+  }
+  
+  /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+  @media screen and (max-width: 1024px) {
+    .expertises__container {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+  
+    .expertise {
+      height: auto;
+    }
+  }
+  
+  /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+  @media screen and (max-width: 600px) {
+    .expertises__container {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+  
