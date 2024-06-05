@@ -2,6 +2,7 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import Header from './components/header/Header';
 import Nav from './components/navbar/navbar'
+import About from './components/about/About';
 import { SwitchContext } from './contexts/SwitchContext';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <div className={`main-content ${darkMode ? 'bg-dark' : 'bg-light'}`}>
         <Header />
         <Nav />
+        <About />
       </div>
     </SwitchContext.Provider>
   );
