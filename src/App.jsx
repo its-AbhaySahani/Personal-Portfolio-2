@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Header from './components/header/Header';
 import Nav from './components/navbar/navbar'
 import About from './components/about/About';
+import Skill from './components/skills/Skill';
 import { SwitchContext } from './contexts/SwitchContext';
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Header />
         <Nav />
         <About />
+        <Skill />
       </div>
     </SwitchContext.Provider>
   );

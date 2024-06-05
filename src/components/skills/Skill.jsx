@@ -46,23 +46,19 @@ const data_frontend = [
 
 const data_backend = [
   {
-    skill: 'Laravel',
-    level: 'Intermediate'
-  },
-  {
-    skill: 'Codeigniter',
+    skill: 'Django',
     level: 'Experienced'
   },
   {
-    skill: 'Node JS',
-    level: 'Basic'
-  },
-  {
-    skill: 'MongoDB',
+    skill: 'Flask',
     level: 'Intermediate'
   },
   {
-    skill: 'PHP',
+    skill: 'Node JS',
+    level: 'Experienced'
+  },
+  {
+    skill: 'MongoDB',
     level: 'Experienced'
   },
   {
@@ -74,16 +70,20 @@ const data_backend = [
     level: 'Intermediate'
   },
   {
-    skill: 'Inertia',
+    skill: 'Pytorch',
     level: 'Experienced'
   },
   {
-    skill: 'Express JS',
-    level: 'Basic'
+    skill: 'Computer Vision',
+    level: 'Intermediate'
   },
   {
-    skill: 'Prisma',
-    level: 'Intermediate'
+    skill: 'Docker',
+    level: 'Experienced'
+  },
+  {
+    skill: 'Model Fintuning',
+    level: 'Experienced'
   }
 ];
 
@@ -112,7 +112,7 @@ const Skill = () => {
         </div>
 
         <div className='experience__backend'>
-          <h3>Backend Development</h3>
+          <h3>Backend & ML/AI</h3>
           <div className='experience__content'>
             {data_backend.map(({ skill, level }, index) => {
               return (
