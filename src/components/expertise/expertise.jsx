@@ -82,35 +82,37 @@ const Expertise = () => {
 
         <article className='expertise'>
           <div className='expertise__head'>
-            <h3>Content Creation</h3>
+            <h3>Data Science & ML/AI</h3>
           </div>
 
           <ul className='expertise__list'>
             <li>
               <BiCheck className='expertise__list-icon' />
-              <p>Research industry-related topics.</p>
+              <p>Experienced in Data Collection and Processing (Both image & textual)</p>
             </li>
             <li>
               <BiCheck className='expertise__list-icon' />
               <p>
-                Prepare well-structured drafts using digital publishing
-                platforms.
+                Model Development and Deployment (Both image & textual)
               </p>
             </li>
             <li>
               <BiCheck className='expertise__list-icon' />
               <p>
-                Create and distribute marketing copy to advertise company and
-                products.
+                Data Visualization and Interpretation
               </p>
             </li>
             <li>
               <BiCheck className='expertise__list-icon' />
-              <p>Identify customers&apos; needs and recommend new topics.</p>
+              <p>
+                Making Web Applications with ML/AI models
+             </p>
             </li>
             <li>
               <BiCheck className='expertise__list-icon' />
-              <p>Measure web traffic to content.</p>
+              <p>
+                Working with Deep Learning models
+              </p>
             </li>
           </ul>
         </article>

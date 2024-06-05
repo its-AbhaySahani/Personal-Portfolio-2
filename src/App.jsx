@@ -4,6 +4,7 @@ import Header from './components/header/Header';
 import Nav from './components/navbar/navbar'
 import About from './components/about/About';
 import Skill from './components/skills/Skill';
+import Expertise from './components/expertise/expertise';
 import { SwitchContext } from './contexts/SwitchContext';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Nav />
         <About />
         <Skill />
+        <Expertise />
       </div>
     </SwitchContext.Provider>
   );
