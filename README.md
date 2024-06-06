@@ -15,6 +15,7 @@ The project is structured as follows:
     - `header/`: Contains the `Header.jsx`, `header.css`, `helper.jsx`, and `social.jsx` files for the Header section.
     - `navbar/`: Contains the `Navbar.jsx` and `navbar.css` files for the Navbar section.
     - `qualifications/`: Contains the files for the Qualifications section.
+    - `portfolio/` : Contains the files for the projects and works section.
     - `quotes/`: Contains the `Quotes.jsx` and `quotes.css` files for the Quotes section.
     - `skills/`: Contains the files for the Skills section.
     - `themeSwitch/`: Contains the files for the Theme Switch feature.
