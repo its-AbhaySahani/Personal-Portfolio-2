@@ -7,6 +7,7 @@ import Skill from './components/skills/Skill';
 import Expertise from './components/expertise/expertise';
 import Qualification from './components/qualifications/qualification';
 import Footer from './components/Footer/footer';
+import Quotes from './components/quotes/Quotes';
 import { SwitchContext } from './contexts/SwitchContext';
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
         <Skill />
         <Expertise />
         <Qualification />
+        <Quotes />
         <Footer />
       </div>
     </SwitchContext.Provider>
