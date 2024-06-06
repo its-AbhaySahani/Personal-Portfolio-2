@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <a href='#home' className='footer__logo'>
-        SALIMI
+        Abhay Sahani
       </a>
 
       <ul className='permalinks'>
@@ -55,7 +55,7 @@ const Footer = () => {
           <FiInstagram />
         </a>
         <a
-          href='https://twitter.com/Explore_Abhay'
+          href='https://twitter.com/Explore_Abhay_'
           aria-label='Twitter'
           target='_blank'
           rel='noreferrer'
