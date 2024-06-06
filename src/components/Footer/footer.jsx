@@ -73,7 +73,7 @@ const Footer = () => {
             target='_blank'
             rel='noreferrer'
           >
-            Salimi
+            Abhay
           </a>{' '}
           &copy; {new Date().getFullYear()}.
         </small>
