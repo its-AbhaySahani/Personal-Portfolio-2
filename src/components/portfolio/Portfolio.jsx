@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { BsArrowDownCircle, BsArrowUpCircle } from 'react-icons/bs';
 import './portfolio.css';
 
-import IMG1 from '../../assets/longDrive.png';
+import IMG1 from '../../assets/longDrive.jpeg';
+import IMG1webp from '../../assets/longDrive.webp'
 
 const data = [
   {
@@ -11,9 +12,9 @@ const data = [
     imageWebp: IMG1webp,
     title: 'Long Drive- peer-to-peer car rental app',
     github: 'https://github.com/its-AbhaySahani/long_drive',
-    demo: 'https://social-login.salimi.my',
-    tags: ['CodeIgniter', 'Tailwind', 'MySQL'],
-    desc: 'This is a social media auth app created using Codeigniter with Facebook, Google, or Twitter.'
+    demo: 'https://longdrive.netlify.app/',
+    tags: ['React+vite', 'node/express', 'MongoDB'],
+    desc: 'This is a peer-to-peer car rental app where users can rent cars from other users and also can give their personal vehicles on rent.',
   }
  
 ];
