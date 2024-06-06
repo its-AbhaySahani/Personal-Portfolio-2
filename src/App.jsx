@@ -8,6 +8,7 @@ import Expertise from './components/expertise/expertise';
 import Qualification from './components/qualifications/qualification';
 import Footer from './components/Footer/footer';
 import Quotes from './components/quotes/Quotes';
+import Switch from './components/themeSwitch/Switch';
 import { SwitchContext } from './contexts/SwitchContext';
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
         <Qualification />
         <Quotes />
         <Footer />
+        <Switch />
       </div>
     </SwitchContext.Provider>
   );
