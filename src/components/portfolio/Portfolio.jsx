@@ -4,19 +4,23 @@ import './portfolio.css';
 
 import IMG1 from '../../assets/longDrive.jpeg';
 import IMG1webp from '../../assets/longDrive.webp'
+
 import IMG2 from '../../assets/PokemonDetector.png';
 import IMG2webp from '../../assets/PokemonDetector.webp'
 
+import IMG3 from '../../assets/ShitChat.png';
+import IMG3webp from '../../assets/ShitChat.webp'
+
 const data = [
   {
-    id: 1,
-    image: IMG1,
-    imageWebp: IMG1webp,
-    title: 'Long Drive- peer-to-peer car rental app',
-    github: 'https://github.com/its-AbhaySahani/long_drive',
-    demo: 'https://longdrive.netlify.app/',
-    tags: ['React+vite', 'node/express', 'MongoDB'],
-    desc: 'This is a peer-to-peer car rental app where users can rent cars from other users and also can give their personal vehicles on rent.',
+    id: 3,
+    image: IMG3,
+    imageWebp: IMG3webp,
+    title: 'ShitChat',
+    github: 'https://github.com/its-AbhaySahani/ShitChat',
+    demo: 'chatgoku.onrender.com',
+    tags: ['html&css', 'Node/Express', 'Socket.io', 'code editor'],
+    desc: 'This is a real-time code editor with chat functionality. Users can chat and code simultaneously.',
   },
   {
     id: 2,
@@ -27,9 +31,19 @@ const data = [
     demo: 'https://pokemon-detector.netlify.app/',
     tags: ['React', 'Flask', 'PyTorch', 'Deep Learning', 'Vision Transformer', 'CV'],
     desc: 'This is a Pokemon detector app which uses Vision Transformer model to detect Pokemon from images. Trained useing 1.5lakh images of 1100 pokemons scraped from Bing.',
+  },
+  {
+    id: 1,
+    image: IMG1,
+    imageWebp: IMG1webp,
+    title: 'Long Drive- peer-to-peer car rental app',
+    github: 'https://github.com/its-AbhaySahani/long_drive',
+    demo: 'https://longdrive.netlify.app/',
+    tags: ['React+vite', 'node/express', 'MongoDB'],
+    desc: 'This is a peer-to-peer car rental app where users can rent cars from other users and also can give their personal vehicles on rent.',
   }
 
- 
+
 ];
 
 const Portfolio = () => {
