@@ -11,7 +11,20 @@ import IMG2webp from '../../assets/PokemonDetector.webp'
 import IMG3 from '../../assets/ShitChat.png';
 import IMG3webp from '../../assets/ShitChat.webp'
 
+import IMG4 from '../../assets/portfolio.png';
+import IMG4webp from '../../assets/portfolio.webp'
+
 const data = [
+  {
+    id: 4,
+    image: IMG4,
+    imageWebp: IMG4webp,
+    title: 'Portfolio Website',
+    github: 'https://github.com/its-AbhaySahani/Personal-Portfolio-2',
+    demo: 'https://abhay-sahani.netlify.app/',
+    tags: ['React', 'React Icons', 'React Hooks'],
+    desc: 'This is my personal portfolio website. It is a single page application with dark mode and light mode support.',
+  },
   {
     id: 3,
     image: IMG3,
