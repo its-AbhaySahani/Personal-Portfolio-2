@@ -4,6 +4,8 @@ import './portfolio.css';
 
 import IMG1 from '../../assets/longDrive.jpeg';
 import IMG1webp from '../../assets/longDrive.webp'
+import IMG2 from '../../assets/PokemonDetector.png';
+import IMG2webp from '../../assets/PokemonDetector.webp'
 
 const data = [
   {
@@ -15,7 +17,18 @@ const data = [
     demo: 'https://longdrive.netlify.app/',
     tags: ['React+vite', 'node/express', 'MongoDB'],
     desc: 'This is a peer-to-peer car rental app where users can rent cars from other users and also can give their personal vehicles on rent.',
+  },
+  {
+    id: 2,
+    image: IMG2,
+    imageWebp: IMG2webp,
+    title: 'Pokemon Detector',
+    github: 'https://github.com/its-AbhaySahani/Pokemon-Detector',
+    demo: 'https://pokemon-detector.netlify.app/',
+    tags: ['React', 'Flask', 'PyTorch', 'Deep Learning', 'Vision Transformer', 'CV'],
+    desc: 'This is a Pokemon detector app which uses Vision Transformer model to detect Pokemon from images. Trained useing 1.5lakh images of 1100 pokemons scraped from Bing.',
   }
+
  
 ];
 
