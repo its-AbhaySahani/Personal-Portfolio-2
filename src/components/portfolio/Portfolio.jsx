@@ -14,7 +14,20 @@ import IMG3webp from '../../assets/ShitChat.webp'
 import IMG4 from '../../assets/portfolio.png';
 import IMG4webp from '../../assets/portfolio.webp'
 
+import IMG5 from '../../assets/anime.png';
+import IMG5webp from '../../assets/anime.webp'
+
 const data = [
+  {
+    id: 5,
+    image: IMG5,
+    imageWebp: IMG5webp,
+    title: 'GokuFlex',
+    github: 'https://github.com/its-AbhaySahani/anime',
+    demo: 'https://gokuflex.netlify.app/',
+    tags: ['React','Node/Express','MongoDb', 'Anime API', 'React Context API'],
+    desc: 'This is a anime streaming website with user authentication and watchlist feature. Users can watch anime and add them to their watchlist.',
+  },
   {
     id: 4,
     image: IMG4,
