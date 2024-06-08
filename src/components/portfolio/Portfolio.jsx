@@ -17,7 +17,20 @@ import IMG4webp from '../../assets/portfolio.webp'
 import IMG5 from '../../assets/anime.png';
 import IMG5webp from '../../assets/anime.webp'
 
+import IMG6 from '../../assets/covid-19.png';
+import IMG6webp from '../../assets/covid-19.webp'
+
 const data = [
+  {
+    id: 6,
+    image: IMG6,
+    imageWebp: IMG6webp,
+    title: 'Covid-19 website',
+    github: 'https://github.com/its-AbhaySahani/Covid-19-Website',
+    demo: 'https://its-abhaysahani.github.io/Covid-19-Website/',
+    tags: ['html', 'css', 'javascript'],
+    desc: 'This is a Covid-19 website which contains all nessasary information about Covid-19 and its prevention. Also conatains a map which shows the number of cases in each country.',
+  },
   {
     id: 5,
     image: IMG5,
