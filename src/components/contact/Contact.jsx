@@ -13,6 +13,8 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log(form.current);
+
     setMessageSubmitting(true);
 
     emailjs
@@ -27,6 +29,7 @@ const Contact = () => {
           if (result.text === 'OK') {
             setMessageSubmitting(false);
             setMessageSubmitted(true);
+            console.log('Message sent successfully');
           }
         },
         (error) => {

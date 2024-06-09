@@ -88,7 +88,7 @@ const About = () => {
 
             <article className='about__card'>
               <TfiHeadphoneAlt className='about__icon' />
-              <h3>Worlwide</h3>
+              <h3>Worldwide</h3>
               <small>Remotely Available</small>
             </article>
           </div>
