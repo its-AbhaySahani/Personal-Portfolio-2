@@ -82,7 +82,7 @@ const data_backend = [
     level: 'Experienced'
   },
   {
-    skill: 'Model Fintuning',
+    skill: 'Model Fintunning',
     level: 'Experienced'
   }
 ];

@@ -116,7 +116,7 @@ const Qualification = () => {
                 </span>
                 <div className='qualification__calendar'>
                   <AiOutlineCalendar className='qualification__calendar-icon' />
-                  2024 - Present
+                  (Offer Letter)
                 </div>
               </div>
 
