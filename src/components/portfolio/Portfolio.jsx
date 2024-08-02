@@ -67,7 +67,7 @@ const data = [
     imageWebp: IMG2webp,
     title: 'Pokemon Detector',
     github: 'https://github.com/its-AbhaySahani/Pokemon-Detector',
-    demo: 'https://pokemon-detector.netlify.app/',
+    demo: 'https://drive.google.com/file/d/1Ifz7KxKzKIobN-9d7sy6-UVzKWzt3GGo/view',
     tags: ['React', 'Flask', 'PyTorch', 'Deep Learning', 'Vision Transformer', 'CV'],
     desc: 'This is a Pokemon detector app which uses Vision Transformer model to detect Pokemon from images. Trained useing 1.5lakh images of 1100 pokemons scraped from Bing.',
   },
